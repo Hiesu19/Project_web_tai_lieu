@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContainerComponent } from './container/container.component';
 import { FooterComponent } from './footer/footer.component';
+import { NgxFontAwesomeModule } from 'ngx-font-awesome';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     MenuComponent,
     ContainerComponent,
-    FooterComponent
+    FooterComponent,
+
   ],
   imports: [
     BrowserModule,
